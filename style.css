@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-bar {
+    height: 60px;
+    background-color: lightskyblue;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.cities {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    cursor:pointer;
+}
+
+.city-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+    width: 1050px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.weather-container {
+    width: 1050px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.weather-box {
+    background-color: lightgray;
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.weather-box img {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.temperature {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.highTemp {
+    font-size: 1.4rem;
+    color: red;
+    font-weight: bolder;
+}
+
+.lowTemp {
+    font-size: 1.4rem;
+    color: blue;
+    font-weight: bolder;
+}
+
+.cookieBox {
+    width: 850px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 10px;
+    left: 350px;
+    border: 2px solid black;
+    padding: 10px;
+    align-items: center;
+}
+
+.cookieBox img {
+    height: 50px;
+}
+
+.cookieText {
+    width: 600px;
+}
+
+#accept {
+    width: 100px;
+    height: fit-content;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    font-size: larger;
+}
